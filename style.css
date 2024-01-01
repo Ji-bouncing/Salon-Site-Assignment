@@ -1,0 +1,259 @@
+*{
+  margin:0;
+  padding:0;
+  clear:both;
+  box-sizing:border-box;
+}
+
+html{
+  font-size:62.5%;
+}
+header{
+  display:flex;
+  justify-content:space-between;
+  padding:1rem 0;
+}
+header > span{
+  margin-left:30px;
+  font-size:1.3rem;
+  font-weight:bold;
+}
+header nav ul li{
+  flex:1;
+  display: inline;
+  margin:20px;
+  
+}
+header nav ul li a{
+  text-decoration: none;
+  color:black;
+  text-transform: uppercase;
+  font-weight:700;
+}
+main{
+  background-image:url(/Images/SFrMkCtKHws.jpg);
+  background-size:cover;
+  height:40vh;
+  padding:8vh 0 1% 10%;
+}
+main > h1{
+  font-size:4rem;
+  letter-spacing:0.3rem;
+  font-weight:600;
+  padding-bottom:2%;
+}
+main > h1 + p{
+  font-size:1.2rem;
+  text-transform: uppercase;
+  padding-bottom:3%;
+}
+main > h1 + p + a{
+  text-decoration:none;
+  color:white;
+  background:black;
+  border:none;
+  display: block;
+  width:28%;
+  font-size:1.3rem;
+  margin-bottom:3%;
+  text-transform: uppercase;
+  padding:3% 6%;
+}
+main section{
+  background:black;
+  color:white;
+  width:40%;
+  margin:8% 0;
+  padding-left: 5%;
+  padding-top:10%;
+  height:20vh;
+}
+main section > h2{
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size:1rem;
+  padding:8% 0 10% 0;
+}
+main section h3{
+  font-size:1.5rem;
+  text-transform: uppercase;
+  font-weight:400;
+  line-height:3rem;
+  margin-bottom:4%;
+}
+main section h3 span{
+  font-size:4rem;
+}
+main section a{
+  background:white;
+  color:black;
+  text-decoration:none;
+  text-transform: uppercase;
+  display: block;
+  padding:3% 6%;
+  font-size:1.2rem;
+  font-weight:500;
+  width:55%;
+  margin-top:10%;
+}
+main + section{
+  display:flex;
+  justify-content: space-between;
+  margin-top:25%;
+  padding:4%;
+  
+}
+main + section section{
+  text-align:center;
+  
+}
+main + section section h3{
+  font-size:1.2rem;
+  text-transform: uppercase;
+  padding-bottom:4%;
+  font-weight:600;
+}
+main + section section i{
+  margin-bottom:8%;
+  font-size:5rem;
+}
+main + section + section {
+  display:flex;
+  padding: 15% 0 10% 10%;
+  background: lightgrey;
+}
+main + section + section section{
+  flex:1;
+  justify-content: space-between;
+}
+.hairstylistImage img{
+  width:100%;
+  margin-right:0;
+  height:200px;
+}
+.momentumSect > h1{
+  font-size:2rem;
+  line-height:3rem;
+  text-transform: uppercase;
+  font-weight:400;
+}
+.momentumSect p{
+  padding:3% 0;
+  line-height:1.8rem;
+}
+.momentumSect a{
+  text-decoration: none;
+  text-transform: uppercase;
+  background:black;
+  padding:8% 10%;
+  width:50%;
+  display:block;
+  color:white;
+}
+section.ladiesAds{
+  display:flex;
+  margin-top: 4%;
+  margin-bottom:5%;
+}
+section.ladiesAds img{
+  width:90%;
+  height:210px;
+}
+section.ladiesAds div{
+  text-align:center;
+  background: black;
+  color:white;
+  height:45px;
+  width:80%;
+  margin:-2% auto;
+}
+section.ladiesAds div h2{
+  text-transform: uppercase;
+  padding:5% 0 3% 0;
+}
+section.ladiesAds div span{
+  text-transform: uppercase;
+  font-size:1.2rem;
+}
+.discountSales{
+  height:25vh;
+  padding-top:8vh;
+  padding-left:10%;
+  background-image: url(/Images/0003_Britney.jpg);
+  background-size:cover;
+}
+.discountSales h3{
+  text-transform: uppercase;
+  margin-bottom:4%;
+}
+.discountSales h1{
+  text-transform: uppercase;
+  line-height:3rem;
+}
+.discountSales h1 span{
+  font-size:4rem;
+}
+.discountSales a{
+  display: block;
+  width:30%;
+  background: black;
+  color:white;
+  text-align:center;
+  margin-top:4%;
+  padding:4% 0;
+  text-decoration:none;
+  text-transform: uppercase;
+}
+.modelsImage section{
+  float:left;
+  display:inline;
+  width:30%;
+  
+}
+.modelsImage section img{
+  width:100%;
+  height:100px;
+}
+
+.discountSales + aside > h1{
+  padding:5% 0;
+  text-align:center;
+  text-transform: uppercase;
+  font-size:3rem;
+  font-weight:400;
+}
+aside section img{
+  width:100%;
+  float:right;
+}
+section.modelsImage{
+  display:flex;
+}
+section.lastImages{
+  display:flex;
+}
+section.lastImages img{
+  width:100%;
+}
+section.longHeight img{
+  height:210px;
+  
+}
+section.lastImages > section img.firstImage{
+  margin-top:-78%;
+  width:108%;
+  height:230px;
+  margin-left:4%;
+}
+img.lastImageModel{
+  width:90% !important;
+  margin-left:6%;
+  margin-top:-48%;
+  height:230px;
+}
+.blondeSmile img{
+  width:90% !important;
+  margin-left:13%;
+  height:120px;
+  margin-top:3%;
+}
